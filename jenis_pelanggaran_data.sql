@@ -1,0 +1,15 @@
+INSERT INTO `jenis_pelanggaran` (`nama_pelanggaran`, `poin`, `kategori`, `created_at`, `updated_at`) VALUES
+('Mengotori (mencorat-coret) barang milik sekolah, guru, karyawan atau teman', 10, 'Ringan', NOW(), NOW()),
+('Merusak atau menghilangkan barang milik sekolah, guru, karyawan atau teman', 25, 'Sedang', NOW(), NOW()),
+('Mengambil (mencuri) barang milik sekolah, guru, karyawan atau teman', 50, 'Berat', NOW(), NOW()),
+('Makan dan minum di dalam kelas saat berlangsungnya pelajaran', 5, 'Ringan', NOW(), NOW()),
+('Mengaktifkan alat komunikasi didalam kelas pada saat pelajaran berlangsung', 5, 'Ringan', NOW(), NOW()),
+('Membuang sampah tidak pada tempatnya', 5, 'Ringan', NOW(), NOW()),
+('Membawa teman selain siswa SMK BN maupun dengan siswa sekolah lain atau pihak lain', 5, 'Ringan', NOW(), NOW()),
+('Membawa benda yang tidak ada kaitannya dengan proses belajar mengajar', 10, 'Ringan', NOW(), NOW()),
+('Bertengkar / bertentangan dengan teman di lingkungan sekolah', 15, 'Sedang', NOW(), NOW()),
+('Memalsu tandatangan guru, walikelas, kepala sekolah', 40, 'Berat', NOW(), NOW()),
+('Menggunakan/menggelapkan SPP dari orang tua', 40, 'Berat', NOW(), NOW()),
+('Membentuk organisasi selain OSIS maupun kegiatan lainnya tanpa seijin Kepala Sekolah', 15, 'Sedang', NOW(), NOW()),
+('Menyalahgunakan Uang SPP', 40, 'Berat', NOW(), NOW()),
+('Berbuat asusila', 100, 'Berat', NOW(), NOW());

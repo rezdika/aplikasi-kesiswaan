@@ -1,0 +1,55 @@
+/* Custom Admin Styles */
+.sb-topnav {
+    background: #fff !important;
+    box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.1);
+}
+
+.sb-topnav .navbar-brand {
+    color: #4c0099 !important;
+    font-weight: 700;
+}
+
+.sb-topnav .nav-link {
+    color: #2a2a2a !important;
+}
+
+.sb-topnav .nav-link:hover {
+    color: #8000ff !important;
+}
+
+.sb-topnav .form-control {
+    border: 1px solid #e0e0e0;
+}
+
+.sb-topnav .btn-primary {
+    background: linear-gradient(135deg, #4c0099, #8000ff);
+    border: none;
+}
+
+.sb-topnav #sidebarToggle {
+    color: #4c0099 !important;
+}
+
+.sb-sidenav-dark {
+    background: linear-gradient(135deg, rgba(76, 0, 153, 0.95), rgba(128, 0, 255, 0.95)), url('../img/banner-bg.png') !important;
+    background-size: cover !important;
+    background-position: center !important;
+}
+
+.sb-sidenav-dark .sb-sidenav-menu .nav-link {
+    color: rgba(255, 255, 255, 0.9);
+}
+
+.sb-sidenav-dark .sb-sidenav-menu .nav-link:hover {
+    background-color: rgba(255, 255, 255, 0.1);
+    color: #fff;
+}
+
+.sb-sidenav-dark .sb-sidenav-menu .nav-link.active {
+    background-color: rgba(255, 255, 255, 0.2);
+    color: #fff;
+}
+
+.sb-sidenav-dark .sb-sidenav-footer {
+    background-color: rgba(0, 0, 0, 0.2);
+}
